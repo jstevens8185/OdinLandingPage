@@ -1,0 +1,106 @@
+body {
+    width: 100vw;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.HeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    background-color: #1f2937;
+    margin: 0;
+    align-items: center;
+}
+
+.HeaderLogo {
+    padding-left: 15vw;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.HeaderLinks{
+    display: flex;
+    gap: 1vw;
+    margin-right: 15vw;
+    font-size: 18px;
+}
+
+.HeaderLinks a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.HeaderLinks a:hover {
+    color: #cccdcf;
+}
+
+.TopFeatureSection .FeatureRight img {
+    width: 350px;
+}
+
+.TopFeatureSection {
+    background-color: #1f2937;
+    display: flex;
+    padding: 5vw 15vw;
+    align-items: stretch;
+    justify-content: space-between;
+    align-content: space-between;
+    gap: 20vw;
+    max-height: 800px;
+}
+
+.FeatureLeft{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    gap: 10px;
+}
+
+
+.FeatureLeft button {
+    width: 100px;
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    padding: 5px;
+    border-radius:  8px;
+}
+
+.FeatureRight {
+    display: flex;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #317df7;
+}
+
+button:active{
+    background-color: #176df7;
+}
+
+.FeatureTitle{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.FeatureSub{
+    color: #e5e7eb;
+    font-size: 18px;
+    
+}
+
+
+
+.ChordDiagramContainer img {
+    height: 300px;
+}
+
+a {
+    text-decoration: none;
+}
