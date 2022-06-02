@@ -24,7 +24,7 @@ body {
 
 .HeaderLinks{
     display: flex;
-    gap: 1vw;
+    gap: 2vw;
     margin-right: 15vw;
     font-size: 18px;
 }
@@ -58,6 +58,7 @@ body {
     flex-direction: column;
     flex: 1 1 auto;
     gap: 10px;
+    justify-content: center;
 }
 
 
@@ -73,6 +74,51 @@ body {
 .FeatureRight {
     display: flex;
     align-items: center;
+}
+
+.MidPicturesSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    align-items: center;
+    gap: 32px;    
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.MidPicturesSection .Chord{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.ChordDiagramContainer{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4vw;
+}
+
+.QuoteSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 36px;
+}
+
+.Quoter {
+    align-self: flex-end;
 }
 
 button:hover {
@@ -94,7 +140,6 @@ button:active{
     font-size: 18px;
     
 }
-
 
 
 .ChordDiagramContainer img {
