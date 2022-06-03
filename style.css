@@ -1,10 +1,9 @@
-body {
-    width: 100vw;
-}
+
 
 * {
     margin: 0%;
     padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .HeaderContainer{
@@ -17,7 +16,7 @@ body {
 }
 
 .HeaderLogo {
-    padding-left: 15vw;
+    padding-left: 20vw;
     color: #f9faf8;
     font-size: 24px;
 }
@@ -25,7 +24,7 @@ body {
 .HeaderLinks{
     display: flex;
     gap: 2vw;
-    margin-right: 15vw;
+    margin-right: 20vw;
     font-size: 18px;
 }
 
@@ -45,12 +44,10 @@ body {
 .TopFeatureSection {
     background-color: #1f2937;
     display: flex;
-    padding: 5vw 15vw;
-    align-items: stretch;
-    justify-content: space-between;
-    align-content: space-between;
-    gap: 20vw;
+    padding: 5vw 20vw;
     max-height: 800px;
+    justify-content: space-between;
+    gap: 10vw;
 }
 
 .FeatureLeft{
@@ -67,14 +64,11 @@ body {
     background-color: #3882f6;
     border: none;
     color: #f9faf8;
+    margin-top: 20px;
     padding: 5px;
     border-radius:  8px;
 }
 
-.FeatureRight {
-    display: flex;
-    align-items: center;
-}
 
 .MidPicturesSection {
     display: flex;
@@ -82,12 +76,13 @@ body {
     margin-top: 48px;
     margin-bottom: 48px;
     align-items: center;
+    align-content: space-between;
     gap: 32px;    
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 
 .MidPicturesSection .Chord{
@@ -124,6 +119,51 @@ body {
 .Quoter {
     align-self: flex-end;
     margin-top: 20px;
+}
+
+.SignUpSection{ 
+    padding: 6vw 20vw;
+}
+
+.SignUpCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 72px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.SignUpLeft {
+    color: #e5e7eb;
+}
+
+.SignUpBold {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.SignUpLeft .SignUpSmall{
+    color: #e5e7eb;
+}
+
+.SignUpButton {
+    border-color: #f9faf8;
+    background-color: #3882f6;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.Footer {
+    background-color: #1f2937;
+    padding: 20px;
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
 }
 
 button:hover {
